@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".Grabadora">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="428dp"
+        android:layout_height="102dp"
+        android:gravity="center|left"
+        android:text="GRABAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        tools:layout_conversion_absoluteHeight="64dp"
+        tools:layout_conversion_absoluteWidth="156dp"
+        tools:layout_editor_absoluteX="512dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/btn_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stop_rec"
+        android:onClick="Recorder"
+        tools:layout_conversion_absoluteHeight="128dp"
+        tools:layout_conversion_absoluteWidth="128dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="399dp"
+        android:layout_height="98dp"
+        android:gravity="center|left"
+        android:text="REPRODUCIR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        tools:layout_conversion_absoluteHeight="76dp"
+        tools:layout_conversion_absoluteWidth="227dp"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="132dp"
+        android:layout_height="128dp"
+        android:background="@drawable/reproducir"
+        android:gravity="center"
+        android:onClick="reproducir"
+        tools:layout_conversion_absoluteHeight="128dp"
+        tools:layout_conversion_absoluteWidth="128dp"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+</LinearLayout>
